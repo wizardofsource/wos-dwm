@@ -9,6 +9,7 @@ Changes:
 * Decrement the number of master windows with ModKey + O
 * Start [Brave](https://brave.com/) with ModKey + B
 * Hide bar with ModKey + Shift + B
+* Take a screenshot with [Flameshot](https://flameshot.js.org/) with ModKey + S
 
 Applied patches:
 * [Swallow](https://dwm.suckless.org/patches/swallow/) - Terminals are replaced with running programs. When program is closed, the terminal is resotred.
