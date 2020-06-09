@@ -68,10 +68,11 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", "-e", "zsh", "--login", NULL };
 static const char *browsercmd[]  = { "brave-browser", NULL };
 static const char *screenshotcmd[]  = { "flameshot", "gui", NULL };
+static const char *roficmd[]  = { "rofi", "-show", "run", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
+	{ MODKEY,                       XK_d,      spawn,          {.v = roficmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      spawn,          {.v = browsercmd } },
 	{ MODKEY,                       XK_s,      spawn,          {.v = screenshotcmd } },
